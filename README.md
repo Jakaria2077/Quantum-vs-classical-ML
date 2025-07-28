@@ -1,92 +1,91 @@
 # 🔮 Quantum vs Classical Machine Learning
 
-This project compares a **classical neural network** with a **quantum neural network** using a simple 2D classification task (`make_moons` dataset).
+A fun comparison between a **Classical Neural Network** and a **Quantum Neural Network** using a simple 2D classification task — the classic `make_moons` dataset 🌙✨
 
-> Made for CQHack25 using Qiskit 🧠⚛️  
-> By [Sayed Jakaria Ahmed (Jack)](https://github.com/YOUR_USERNAME)
+> Made for **CQHack25** using **Qiskit** 🧠⚛️  
+> By **Sayed Jakaria Ahmed (Jack)**
 
 ---
 
 ## 🎯 Objective
 
-Compare the performance of a:
-- 🤖 Classical Neural Network (Scikit-learn MLP)
-- ⚛️ Quantum Neural Network (Qiskit's SamplerQNN)
+To compare the performance of:
 
-on the same dataset to evaluate whether quantum models can compete with classical ones in basic ML tasks.
+- 🤖 **Classical Neural Network** (Scikit-learn `MLPClassifier`)  
+- ⚛️ **Quantum Neural Network** (Qiskit's `SamplerQNN`)
+
+...on the same dataset and see whether quantum models can keep up with classical ones in basic ML tasks.
 
 ---
 
 ## 🧪 Technologies Used
 
-- Python 🐍
-- Qiskit + Qiskit Machine Learning
-- Scikit-learn
-- NumPy
-- Matplotlib
+- Python 🐍  
+- Qiskit + Qiskit Machine Learning ⚛️  
+- Scikit-learn 🤖  
+- NumPy 🔢  
+- Matplotlib 📊  
+- GitHub + VSC 💻
 
 ---
 
 ## 📊 Results
 
-| Model Type | Accuracy |
-|------------|----------|
-| Classical NN | ~97% ✅ |
-| Quantum NN | ~91% 🧠 |
+| Model Type         | Accuracy |
+|--------------------|----------|
+| Classical NN 🤖     | ~97% ✅    |
+| Quantum NN ⚛️       | ~91% 🧠    |
 
 > ⚠️ Quantum NN slightly underperformed due to limited expressibility and noisy simulation.
 
-▶️ How to Run
-Clone the repo:
+---
 
-bash
-Copy
-Edit
+## ▶️ How to Run
+
+**1. Clone the repo:**
+```bash
 git clone https://github.com/your-username/QuantumEdge.git
 cd QuantumEdge
-Install requirements:
+```
 
-bash
-Copy
-Edit
+**2. Install dependencies:**
+```bash
 pip install -r requirements.txt
-Run the main script:
+```
 
-bash
-Copy
-Edit
+**3. Run the code:**
+```bash
 python quantum_edge.py
-What happens:
+```
 
-Two plots will be shown:
+**You'll see:**
+- 📈 Plot 1: Classical Neural Network decision boundary  
+- 📉 Plot 2: Quantum Neural Network decision boundary  
+- ✅ Accuracy and comparison printed in terminal
 
-Decision boundary of Classical Neural Net
+---
 
-Decision boundary of Quantum Neural Net
+## 🌟 Inspiration
 
-You'll see comparison printed in the terminal.
+I’ve always been fascinated by the strange, mysterious quantum world — how particles can be in superposition or entangled across time and space.  
+That curiosity led me to discover quantum computing.
 
-🌟 Inspiration
-I’ve always been fascinated by the strange, mysterious quantum world — how particles can be in superposition or entangled across time and space. That fascination led me to discover quantum computers.
-This project is my first attempt at combining quantum mechanics and machine learning — and I loved every second of it ⚛️❤️
+This project is my **first step** into merging quantum mechanics and AI — and I’ve loved every second of it! ❤️⚛️
 
-🔧 Challenges Faced
-Learning Qiskit from scratch in a short time
+---
 
-Understanding how Quantum Neural Networks work
+## 🔧 Challenges Faced
 
-Fixing broken imports and old deprecated functions
+- Learning Qiskit from scratch in a few days  
+- Understanding how Quantum Neural Networks actually work  
+- Fixing broken imports and deprecated functions  
+- Making a fair comparison between two totally different architectures
 
-Aligning outputs of classical and quantum models fairly
+---
 
-🚀 Future Work
-Test this on real quantum hardware using IBM Qiskit backend
+## 🚀 Future Work
 
-Explore Variational Quantum Classifiers (VQC)
-
-Improve quantum model accuracy with better ansatz
-
-Build a proper UI or web dashboard for visualization
-
-🔗 Try it Out
-🔗 GitHub Repo
+- Run this on real quantum hardware (IBM Qiskit backends)  
+- Explore **Variational Quantum Classifiers (VQC)**  
+- Boost Quantum NN accuracy with a better ansatz  
+- Build a full UI or deploy a web app to visualize live comparison
